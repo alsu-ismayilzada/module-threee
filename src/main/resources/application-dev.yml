@@ -1,0 +1,9 @@
+server:
+  port:  ${server-port:8080}
+
+app:
+  env
+
+logging:
+  level:
+    root: DEBUG

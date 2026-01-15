@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: module-threee
+  profiles:
+    active: ${active-profile:dev}
+
+server:
+  servlet:
+    context-path: /api
+
